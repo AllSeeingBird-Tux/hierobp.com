@@ -1,0 +1,122 @@
+body, h1, h2, p, a {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: #f4f4f4;
+}
+
+.header-links ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.header-links li {
+    margin-left: 1em;
+}
+
+.header-links a {
+    text-decoration: none;
+    color: blue;
+}
+
+.header-links a:hover {
+    text-decoration: underline;
+}
+
+.blog-container {
+    padding: 2em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.blog-post {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.blog-post h2 {
+    margin-bottom: 0.5em;
+}
+
+.blog-post a {
+    text-decoration: none;
+    color: #333;
+}
+
+.blog-post a:hover {
+    text-decoration: underline;
+}
+
+.date {
+    color: #888;
+    font-size: 0.9em;
+    margin-bottom: 0.5em;
+}
+
+.summary {
+    margin-bottom: 1em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #f4f4f4;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.header-container {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0em; 
+    background-color: #f4f4f400; 
+}
+
+.header-links ul {
+    list-style-type: none; 
+    display: flex; 
+}
+
+.header-links li {
+    margin-left: 1em; 
+}
+
+.header-links a {
+    text-decoration: none; 
+    color: blue;
+}
+
+.header-links a:hover {
+    text-decoration: underline; 
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.78em; 
+}
+
+h1 {
+    font-size: 5.0em; 
+    font-weight: bold; 
+    color:rgb(7, 7, 151);
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+
+}
+li {
+    font-size: 1.78em;
+}
